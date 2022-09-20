@@ -3,5 +3,5 @@ import '@testing-library/jest-dom'
 import Home from "../index"
 it('Should render title text', () => {
   render(<Home />)
-  expect(screen.getByText('Next.js!')).toBeInTheDocument()
+  expect(screen.getByText('Next')).toBeInTheDocument()
 })
